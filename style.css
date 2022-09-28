@@ -13,27 +13,28 @@ body{
     display: grid;
     column-gap: 0px;
     position: relative;
-    grid-template-columns: 1fr 2fr;
-    margin: 100px 200px;
-    padding-left: 100px 0px 100px 0px;
-    height: 400px;
+    grid-template-rows: 1fr 2fr;
+    margin: 50px 50px;
+    padding-left: 50px;
+    justify-content: center;
 }
 
 .leftSide img{
-    width: 250px;
-    height: 100%;
-    margin-left: 300px;
-    border-radius: 10px 0px 0px 10px;
+    width: 340px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: -5px;
 }
 
 .rightSide{
     background-color: hsl(0, 0%, 100%);
     display: grid;
     position: relative;
-    grid-template-rows: max-content;
+    grid-template-rows: max-content ;
     padding: 20px;
-    width: 250px;
-    border-radius: 0px 10px 10px 0px;
+    width: 300px;
+    height: 320px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .textAbove{
@@ -60,7 +61,7 @@ body{
 
 .price{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:1fr 2fr;
 }
 
 .oldPrice{
@@ -84,7 +85,7 @@ button{
     color: hsl(0, 0%, 100%);
     font-family: 'Montserrat';
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 5px;
     border-style: none;
     display: inline-block;
     text-align: center;
@@ -95,6 +96,101 @@ button:hover{
 }
 
 button img{
-    padding-right: 5px;
+    padding-right: 2px;
     height: 13px;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .card{
+        display: grid;
+        column-gap: 0px;
+        position: relative;
+        grid-template-columns: 1fr 2fr;
+        margin: 100px 200px;
+        padding-left: 100px 0px 100px 0px;
+        height: 400px;
+        justify-content: center;
+    }
+
+    .leftSide img{
+        width: 250px;
+        height: 100%;
+        margin-left: 300px;
+        border-radius: 10px 0px 0px 10px;
+    }
+    
+    .rightSide{
+        background-color: hsl(0, 0%, 100%);
+        display: grid;
+        position: relative;
+        grid-template-rows: max-content;
+        padding: 20px;
+        width: 250px;
+        height: 400px;
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    .textAbove{
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 14px;
+        color: hsl(228, 12%, 48%);
+        padding-bottom: 20px;
+    }
+    
+    .name{
+        font-family: 'Fraunces';
+        font-weight: 700;
+    }
+    
+    .desp{
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+    }
+    
+    .price{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .oldPrice{
+        text-decoration:line-through; 
+        padding-top: 13px; 
+        font-size: 12px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        padding-left: 20px;
+        color: hsl(228, 12%, 48%);
+    }
+    
+    .newPrice{
+        font-family: 'Fraunces'; 
+        font-weight: 700; 
+        color: hsl(158, 36%, 37%);
+    }
+    
+    button{
+        background-color: hsl(158, 36%, 37%);
+        color: hsl(0, 0%, 100%);
+        font-family: 'Montserrat';
+        font-weight: 700;
+        border-radius: 10px;
+        border-style: none;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    button:hover{
+        background-color: hsl(212, 21%, 14%);
+    }
+    
+    button img{
+        padding-right: 5px;
+        height: 13px;
+    }
 }
