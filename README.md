@@ -25,15 +25,15 @@ Users should be able to:
 
 ### Screenshot
 
-- Desktop view: [](images\screenshot.PNG)
-- Phone view: [](images\phone-screenshot.jpeg)
+[Desktop view screenshot](images\screenshot.PNG)
+[Phone view screenshot](images\phone-screenshot.jpeg)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Wowo-chukwudi/product-preview)
-- Live Site URL: [Add live site URL here](https://wowo-chukwudi.github.io/product-preview/)
+- Solution URL: [Github Repo](https://github.com/Wowo-chukwudi/product-preview)
+- Live Site URL: [Live Site](https://wowo-chukwudi.github.io/product-preview/)
 
 ## My process
 
