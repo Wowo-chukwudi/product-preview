@@ -15,7 +15,6 @@ body{
     position: relative;
     grid-template-rows: 1fr 2fr;
     margin: 50px 50px;
-    padding-left: 50px;
     justify-content: center;
 }
 
