@@ -14,7 +14,7 @@ body{
     column-gap: 0px;
     position: relative;
     grid-template-rows: 1fr 2fr;
-    margin-top: 50px;
+    padding-top: 20px;
     justify-content: center;
 }
 
