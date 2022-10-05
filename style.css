@@ -16,11 +16,8 @@ body{
     column-gap: 0px;
     position: relative;
     grid-template-rows: 1fr 2fr;
-<<<<<<< HEAD
     margin: 50px 50px;
-=======
     padding-top: 20px;
->>>>>>> 44e846c78f2936a0b2a8d7959ff53df1c0f42aaa
     justify-content: center;
 }
 
