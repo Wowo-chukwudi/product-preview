@@ -7,6 +7,8 @@
 
 body{
     background-color: hsl(30, 38%, 92%);
+    align-items: center;
+    justify-content: center;
 }
 
 .card{
@@ -15,15 +17,18 @@ body{
     position: relative;
     grid-template-rows: 1fr 2fr;
     margin: 50px 50px;
-    padding-left: 50px;
     justify-content: center;
 }
 
-.leftSide img{
+ .leftSide .mobile{
     width: 340px;
     height: 200px;
     border-radius: 10px 10px 0px 0px;
-    margin-bottom: -5px;
+    margin-bottom: -10px;
+}
+
+.leftSide .desktop{
+    display: none;
 }
 
 .rightSide{
@@ -104,20 +109,25 @@ button img{
 @media screen and (min-width: 1440px) {
     .card{
         display: grid;
-        column-gap: 0px;
         position: relative;
         grid-template-columns: 1fr 2fr;
-        margin: 100px 200px;
-        padding-left: 100px 0px 100px 0px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        padding-left: 150px;
         height: 400px;
-        justify-content: center;
+        /* align-content: center; */
     }
 
-    .leftSide img{
-        width: 250px;
-        height: 100%;
+    .leftSide .desktop{
+        display: block;
+        width: auto;
+        height: 440px;
         margin-left: 300px;
         border-radius: 10px 0px 0px 10px;
+    }
+
+    .leftSide .mobile{
+        display: none;
     }
     
     .rightSide{

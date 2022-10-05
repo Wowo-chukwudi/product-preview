@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop view screenshot](images\screenshot.PNG)
-[Phone view screenshot](images\phone-screenshot.jpeg)
+- [Desktop view screenshot](images\screenshot.PNG)
+- [Phone view screenshot](images\phone-screenshot.jpeg)
 
 
 

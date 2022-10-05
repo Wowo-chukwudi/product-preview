@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
+  <html lang="en"></html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
@@ -13,21 +13,19 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
   </style>
 </head>
 <body>
-
+  <main>
     <div class="card">
       <div class="leftSide">
-        <img src="images/image-product-desktop.jpg" alt="Picture of Perfume" srcset="">
+        <img class="mobile" src="images/image-product-mobile.jpg" alt="Picture of Perfume">
+        <img class="desktop"src="images/image-product-desktop.jpg" alt="Picture of Perfume">
       </div>
+      
       <div class="rightSide">
-
-        <h3 class="textAbove">
-          Perfume
-        </h3>
+        <h3 class="textAbove">Perfume</h3>
 
         <h1 class="name">Gabrielle Essence Eau De Parfum</h1>
 
@@ -40,17 +38,19 @@
         </div>
 
         <button type="submit">
-          <img src="images/icon-cart.svg" alt="cart" srcset="">
+          <img src="images/icon-cart.svg" alt="cart">
           Add to Cart
         </button> 
       </div>
     </div>
-
+  </main>
   
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Wowo Chukwudi</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.twitter.com/dev_chukwudi">Wowo Chukwudi</a>.
+    </div>
+  </footer>
+ 
 </body>
 </html>
